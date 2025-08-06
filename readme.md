@@ -42,11 +42,11 @@ pip install -r requirements.txt
 3) Create Weaviate Admin api 
 
 Add all three keys and url above in .env file
-```bash
-OPENAI_API_KEY= 
-WEAVIATE_API_KEY=
-WEAVIATE_URL=
-```
+
+OPENAI_API_KEY = 
+WEAVIATE_API_KEY = 
+WEAVIATE_URL = 
+
 
 ### 4. Run the Backend Server
 ```bash
