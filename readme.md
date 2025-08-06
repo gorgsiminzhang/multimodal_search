@@ -13,12 +13,19 @@ This project enables you to **upload PDFs**, extract their content, generate **c
 - ✅ Store and retrieve embeddings using Weaviate vector DB
 - ✅ Perform semantic search with natural language queries
 
+## This system includes:
+
+- ✅ PDF content extraction and sentence-aware chunking
+- ✅ Embedding generation using OpenAI models
+- ✅ Vector storage and similarity search with Weaviate
+- ✅ Gradio frontend for user interaction (upload & query)
+- ✅ FastAPI backend to manage extraction and query routes
 ---
 
 ## 🖼️ Architecture Overview
 ![Workflow Diagram](assets/multimodal_search_week1.png)
 
-
+---
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
