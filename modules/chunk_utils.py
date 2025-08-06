@@ -2,7 +2,7 @@ from typing import List
 import re
 
 class Chunker:
-    def __init__(self, window_size: int = 3, stride: int = 1):
+    def __init__(self, window_size: int = 5, stride: int = 4):
         self.window_size = window_size
         self.stride = stride
 
