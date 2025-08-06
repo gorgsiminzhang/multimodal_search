@@ -16,10 +16,8 @@ This project enables you to **upload PDFs**, extract their content, generate **c
 ---
 
 ## 🖼️ Architecture Overview
+![Workflow Diagram](assets/multimodal_search_week1.png)
 
-PDF ──▶ Extractor ──▶ Chunker ──▶ Embeddings ──▶ Weaviate
-▲ │
-└──── Query <────┘
 
 ## 🚀 Getting Started
 
