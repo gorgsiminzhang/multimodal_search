@@ -43,10 +43,6 @@ pip install -r requirements.txt
 
 Add all three keys and url above in .env file
 
-OPENAI_API_KEY = 
-WEAVIATE_API_KEY = 
-WEAVIATE_URL = 
-
 
 ### 4. Run the Backend Server
 ```bash
