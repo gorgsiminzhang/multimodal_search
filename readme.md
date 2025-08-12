@@ -39,6 +39,10 @@ cd multimodal_search
 conda create -n multimodal_search_env python=3.10
 conda activate multimodal_search_env
 pip install -r requirements.txt
+#Optional: Verify CUDA is enabled in ONNX Runtime for minerU acceleration on GPU
+python -c "import onnxruntime as ort; print(ort.__version__, ort.get_available_providers())"
+
+
 ```
 
 ### 3. Set Up Environment Variables

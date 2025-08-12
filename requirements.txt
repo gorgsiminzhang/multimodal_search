@@ -4,10 +4,16 @@ uvicorn==0.35.0
 
 # Gradio frontend
 gradio==5.41.0
-Requests==2.32.4
+requests==2.32.4
+
+# --- OCR ---
+easyocr==1.7.2             # OCR (uses PyTorch under the hood)
+opencv-python-headless>=4.8,<5  # EasyOCR dependency; headless is better for servers
+
 
 # PDF extract
 mineru==2.1.10
+pymupdf==1.26.3            # provides `fitz`
 
 
 # Sentence splitting
@@ -24,3 +30,10 @@ weaviate-client==4.16.5 # ensure v4 API
 
 # Typing support (optional, but helpful)
 typing-extensions==4.11.0
+
+# --- GPU runtimes (install via conda to avoid OpenMP clashes) ---
+# DO NOT pin these with pip if you're using CUDA builds via conda:
+# pytorch, torchvision, torchaudio, onnxruntime-gpu
+# Instead do:
+#   conda install -y pytorch pytorch-cuda=12.* torchvision torchaudio -c pytorch -c nvidia
+#   conda install -y onnxruntime-gpu=1.22.0 -c conda-forge
