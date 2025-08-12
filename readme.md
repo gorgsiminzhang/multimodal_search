@@ -5,7 +5,7 @@ This project enables you to **upload PDFs**, extract their content, generate **c
 ---
 
 ## 🚀 Features
-
+Week1:
 - ✅ Upload any PDF file
 - ✅ Extract clean Markdown text (minerU)
 - ✅ Chunk text using a sliding window (sentence-based) 
@@ -14,7 +14,7 @@ This project enables you to **upload PDFs**, extract their content, generate **c
 - ✅ Perform semantic search with natural language queries
 
 ## This system includes:
-
+Week2:
 - ✅ PDF content extraction and sentence-aware chunking
 - ✅ Embedding generation using OpenAI models
 - ✅ Vector storage and similarity search with Weaviate
@@ -39,6 +39,7 @@ cd multimodal_search
 conda create -n multimodal_search_env python=3.10
 conda activate multimodal_search_env
 pip install -r requirements.txt
+
 #Optional: Verify CUDA is enabled in ONNX Runtime for minerU acceleration on GPU
 python -c "import onnxruntime as ort; print(ort.__version__, ort.get_available_providers())"
 
