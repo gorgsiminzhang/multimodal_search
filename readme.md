@@ -5,7 +5,7 @@ This project enables you to **upload PDFs**, extract their content, generate **c
 ---
 
 ## 🚀 Features
-
+Week1:
 - ✅ Upload any PDF file
 - ✅ Extract clean Markdown text (minerU)
 - ✅ Chunk text using a sliding window (sentence-based) 
@@ -14,7 +14,7 @@ This project enables you to **upload PDFs**, extract their content, generate **c
 - ✅ Perform semantic search with natural language queries
 
 ## This system includes:
-
+Week2:
 - ✅ PDF content extraction and sentence-aware chunking
 - ✅ Embedding generation using OpenAI models
 - ✅ Vector storage and similarity search with Weaviate
