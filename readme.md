@@ -14,7 +14,7 @@ Week1:
 - ✅ Perform semantic search with natural language queries
 
 ## This system includes:
-Week2:
+Week1:
 - ✅ PDF content extraction and sentence-aware chunking
 - ✅ Embedding generation using OpenAI models
 - ✅ Vector storage and similarity search with Weaviate
@@ -23,6 +23,7 @@ Week2:
 ---
 
 ## 🖼️ Architecture Overview
+Week1:
 ![Workflow Diagram](assets/multimodal_search_week1.png)
 
 ---
